@@ -1,0 +1,1 @@
+{"extends": "@zos-apps/config/tsconfig", "compilerOptions": {"outDir": "./dist"}, "include": ["src"]}

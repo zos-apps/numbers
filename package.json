@@ -1,0 +1,108 @@
+{
+  "name": "@zos-apps/numbers",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.numbers",
+    "name": "Numbers",
+    "icon": "📊",
+    "category": "productivity",
+    "description": "Create powerful spreadsheets",
+    "permissions": [
+      "filesystem"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1100,
+        "height": 800
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "spreadsheet",
+      "data",
+      "productivity",
+      "office"
+    ],
+    "about": "Create powerful spreadsheets with beautiful templates.",
+    "help": [
+      "Choose a template",
+      "Enter data",
+      "Add formulas and charts"
+    ],
+    "docs": "https://zos-apps.github.io/numbers",
+    "site": "https://github.com/zos-apps/numbers",
+    "features": [
+      "Spreadsheets",
+      "Charts",
+      "Formulas",
+      "Collaboration",
+      "Templates"
+    ],
+    "shortcuts": [
+      "⌘= Sum",
+      "⌘T New table",
+      "⌘⇧K New chart"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/numbers"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/numbers/issues",
+    "changelog": "https://github.com/zos-apps/numbers/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Create powerful spreadsheets",
+  "homepage": "https://zos-apps.github.io/numbers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/numbers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/numbers/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "numbers",
+    "spreadsheet",
+    "data",
+    "productivity",
+    "office"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
